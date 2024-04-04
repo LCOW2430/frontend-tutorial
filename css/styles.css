@@ -1,7 +1,9 @@
 /* Nicolas Peralta C0932238 */
 
 /* CSS Reset */
-body,header,nav,main,footer,img,h1,ul,figure,figcaption,section,article,aside {
+body,header,nav,main,footer,img,h1,ul,
+figure,figcaption,section,article,aside
+,audio,video     {
     margin: 0;
     padding: 0;
     border: 0;
@@ -11,7 +13,7 @@ body {
     background-color: #000;
 }
 
-img {
+img, video {
     max-width: 100%;
     display: block;
 }
@@ -48,6 +50,11 @@ nav li {
     font-size: 1.5em;
     font-family: "Francois One", sans-serif;
     border-top: 1px solid #fff;
+}
+
+
+video {
+    margin: 0 auto 4%;
 }
 
 nav li:first-child {
